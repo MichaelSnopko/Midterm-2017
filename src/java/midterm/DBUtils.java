@@ -9,11 +9,11 @@ import java.util.logging.Logger;
 /**
  * A Database Utility Class
  *
- * @author <ETNER YOUR NAME HERE>
+ * @author <Michael Snopko>
  */
 public class DBUtils {
 
-    private final static String studentNumber = "";
+    private final static String studentNumber = "c0638820";
 
     /**
      * Utility method used to create a Database Connection

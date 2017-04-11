@@ -3,22 +3,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-    <h:head>
-        <title>CSD4464-Midterm - Add Product</title>
-        <link rel="stylesheet" href="styles.css"/>
-    </h:head>
     <h:body>
+        <h:head>
+        <title>Edit Product</title>
+        <link rel="stylesheet" href="styles.css"></link>
+        
+    </h:head>
         <h:form>
-            <label>Product Name
-                <h:inputText value="#{productController.thisProduct.name}" />
-            </label>
-            <label>Vendors
-                <h:selectOneMenu value="#{productController.thisProduct.vendorId}">
+            
+            <p>Name<h:inputText value="#{productController.thisProduct.name}" /></p>
+            
+             <h:selectOneMenu value="#{productController.thisProduct.vendorId}">
                     <f:selectItems value="#{vendorController.vendors}" var="v"  itemValue="#{v.vendorId}" itemLabel="#{v.name}"/>
                 </h:selectOneMenu>
-                
-            </label>
-            <h:commandButton class="Button" value="Add Product" action="#{productController.add()}" />
+            
+            <h:commandButton class="saveProduct" value="Save Product" action="#{productController.add()}" />
+            
         </h:form>
         <h:link class="Button" outcome="index" value="Return to List" />
     </h:body>

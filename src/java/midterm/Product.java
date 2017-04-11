@@ -1,5 +1,8 @@
 package midterm;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * The Product Model Class
  *
@@ -10,6 +13,25 @@ public class Product {
     private int productId;
     private String name;
     private int vendorId;
+
+    /**
+     *
+     */
+    public Product() {
+    }
+
+    /**
+     *
+     * @param productId
+     * @param name
+     * @param vendorId
+     */
+    public Product(int productId, String name, int vendorId) {
+        this.productId = productId;
+        this.name = name;
+        this.vendorId = vendorId;
+    }
+
 
     /**
      * Retrieve the Product ID

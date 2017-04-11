@@ -1,0 +1,46 @@
+/* 
+    Created on : 28-Mar-2017, 3:37:15 PM
+    Author     : c0638820
+*/
+
+body{
+  background-color: lightblue;  
+}
+.Table{
+    border-style: groove;
+    background-color: azure;
+}
+.Delete{
+    background-color: indianred;
+    color: white;
+    font-size: initial;
+}
+
+.Edit{
+    background-color: darkorange;
+    color: white;
+    font-size: initial;
+}
+.Button {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    margin-top: 2px;
+    border-style: solid;
+    border-color: black;
+    font-size: initial;
+}
+.saveProduct{
+   display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    margin-top: 2px;
+    border-style: solid;
+    border-color: black;
+    font-size: initial; 
+    margin-left: 10px;
+}
